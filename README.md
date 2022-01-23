@@ -15,6 +15,19 @@ This assignment has the following developments:
 ## High Level Architecture Diagram
 ![high_level_archiecture_diagram.png](high_level_archiecture_diagram.png)
 
+Link to chatbot: http://cloud-dining-s3.s3-website-us-west-2.amazonaws.com
+
+Directory Details
+1) /frontend: Frontend Code with updated SDK generated via API Gateway
+2) /lambda_functions/lambda_function_0.py: Lambda-0 python file
+2) /lambda_functions/lambda_function_1.py: Lambda-1 python file
+4) /lambda_functions/lambda_function_2.py : Lambda-2 python file
+5) /yelp_web_scrapper: Scrapper code to receive restaurant information using Yelp Fusion API
+6) /ddb_to_opensearch lambda function: Dynamodb to Opean Search Lambda Function
+7) /api_gateway/api_gateway.yaml: YAML file downloaded from swagger.io with required Bot APIs
+8) /lex_chatbot: Lex BOT Codebase exported from AWS Lex
+
+
 ## Bot Features:
 The following three intents:
 1. GreetingIntent
