@@ -2,16 +2,6 @@
 
 Customer Service is a core service for a lot of businesses around the world and it is getting disrupted at the moment by Natural Language Processing-powered applications. This is an implementation of a serverless, microservice-driven web application. Specifically, a Dining Concierge chatbot that sends you restaurant suggestions given a set of preferences that you provide the chatbot with through conversation.
 
-## Outline:
-
-This assignment has the following developments:
-
-1. Built and deployed the frontend of the application
-2. Frontend hosted in an AWS S3 bucket
-3. Built the API for the application using API Gateway to setup  API with CORS enabled on your API methods
-4. Created a Lambda function that performs the chat operation 
-5. Amazon Lex. Created a new bot using the Amazon Lex service. 
-
 ## High Level Architecture Diagram
 ![high_level_archiecture_diagram.png](high_level_archiecture_diagram.png)
 
@@ -27,6 +17,15 @@ Directory Details
 7) /api_gateway/api_gateway.yaml: YAML file downloaded from swagger.io with required Bot APIs
 8) /lex_chatbot: Lex BOT Codebase exported from AWS Lex
 
+## Outline:
+
+This assignment has the following developments:
+
+1. Built and deployed the frontend of the application
+2. Frontend hosted in an AWS S3 bucket
+3. Built the API for the application using API Gateway to setup  API with CORS enabled on your API methods
+4. Created a Lambda function that performs the chat operation 
+5. Amazon Lex. Created a new bot using the Amazon Lex service. 
 
 ## Bot Features:
 The following three intents:
