@@ -1,9 +1,6 @@
-# for communicating with lex
-import boto3
-# for handling json type objects 
-import json
-# for debugging code 
 import logging
+import boto3
+
 
 def lambda_handler(event, context):
     logging.basicConfig(level=logging.DEBUG,format='%(levelname)s: %(asctime)s: %(message)s')
